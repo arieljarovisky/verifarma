@@ -1,0 +1,46 @@
+html{
+    overflow-x: hidden;
+    
+}
+
+.datos{
+    min-height:88vh;
+    position:relative;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo{
+    text-align: center;
+    
+}
+
+.formulario {
+    
+  
+    min-height:88vh;
+    position:relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+footer{
+   
+    background-color:black;
+    color:white;
+    padding:8px
+
+  
+  }
+
+
+  footer p{
+      color: white;
+      text-align: center;
+      
+  }
