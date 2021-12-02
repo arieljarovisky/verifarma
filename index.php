@@ -42,12 +42,12 @@ $data = $query->fetchAll(PDO::FETCH_OBJ);
                             <?php echo $d->latitud; ?>
                         </td>
                         <td>
-                            <?php echo $d->longitud; ?>
+                            <?php echo $d->longitud;?>
                         </td>
                         <td>
                             <a href="delete.php?id=<?php echo $d->id; ?>" class="btn btn-danger">Eliminar</a>
-                            <a href="editFarmacia.php?id=<?php echo $d->id?>&nombre=<?php echo $d->nombre ?>&direccion=<?php echo $d->direccion ?>&latitud=<?php echo $d->latitud;?>&longitud=<?php echo $d->longitud;?>" class="btn btn-primary">Editar</a>
-                            <a href="verDistancia.php?nombre=<?php echo $d->nombre?>&latitud=<?php echo $d->latitud ?>&longitud=<?php echo $d->longitud; ?>" class="btn btn-success">Ver Distancia</a>
+                            <a href="edit-pharmacy.php?id=<?php echo $d->id?>&nombre=<?php echo $d->nombre ?>&direccion=<?php echo $d->direccion ?>&latitud=<?php echo $d->latitud;?>&longitud=<?php echo $d->longitud;?>" class="btn btn-primary">Editar</a>
+                            <a href="see-distance.php?nombre=<?php echo $d->nombre?>&latitud=<?php echo $d->latitud ?>&longitud=<?php echo $d->longitud; ?>" class="btn btn-success">Ver Distancia</a>
                         </td>
                     </tr>
 
